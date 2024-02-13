@@ -1,0 +1,126 @@
+.hero-container{
+    width: 1170px;
+    height: 420px;
+    top: 184px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    border-radius: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.credit-card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 18px;
+}
+
+.section-container {
+    // border: 2px solid black;
+    display: flex;
+    width: 496px;
+    flex-direction: column;
+    height: 267px;
+    left: 100px;
+}
+
+.h1-container{
+    width: 496px;
+    height: 124px;
+    top: 260px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62.4px;
+    color: #000000;
+    align-items: center;
+}
+.text-container {
+    width: 496px;
+    height: 60px;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section-button{
+    font-family: 'Roboto', sans-serif;
+    width: 172px;
+    height: 43px;
+    background-color: salmon;
+    color: #FFFFFF;
+    gap: 12px;
+    border-radius: 30px;
+    margin-top: 12px;
+}
+
+.section-button:hover {
+    background-color: rgb(218, 87, 72);;
+}
+
+@media screen and (max-width: 450px){
+    .hero-container{
+        width: 375px;
+        height: 486px;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        padding-bottom: 90px;
+    }
+
+    .section-container {
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: center;
+        position: absolute;
+        top: 17px;
+        margin-left: -60px;
+        // margin-top: 20px;
+        text-align: center;
+    }
+
+    .h1-container{
+        width: 338px;
+        height: 90px;
+        justify-content: center;
+        font-family:  Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 32px;
+        margin-left: -20px;
+        line-height: 44.8px;
+        color: #000000;
+        align-items: center;
+    }
+
+    .text-container{
+        width: 329px;
+        height: 52px;
+        font-weight: 400;
+        font-family: Helvetica, sans-serif;
+        position: relative;
+        left: -10px;
+        font-size: 17px;
+        line-height: 25.5px;
+    }
+
+    .section-button {
+        width: 160px;
+        height: 40px;
+        background-color: #F2707C;
+        position: relative;
+        left: 68px;
+        gap: 10px;
+    }
+
+    .credit-card{
+        width: 343px;
+        position: absolute;
+        height: 235px;
+        top: 230px;
+        left: 16px;
+    }
+}

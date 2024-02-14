@@ -4,9 +4,6 @@
     top: 184px;
     display: flex;
     flex-direction: row;
-    // margin-left: 100px;
-    // border-radius: 30px;
-    // padding-top: 80px;
     padding-bottom: 80px;
 }
 
@@ -16,6 +13,13 @@
     background: #BFE1FF;
     flex-direction: row;
     height: 480px;
+}
+
+.form{
+    display: none;
+}
+.response-p{
+    display: none;
 }
 
 .form-layout{
@@ -92,3 +96,106 @@
     line-height: 36px;
 }
 
+    .step_1-footer{
+        display: none;
+    }
+
+    .step_1-angle{
+        display: none;
+    }
+
+@media screen and (max-width: 450px){
+    .step_1-container{
+        width: 375px;
+        height: 557px;
+        align-items: center;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        padding-bottom: 90px;
+    }
+    .step-1-section-container{
+        background-color: white;
+    }
+
+    .response-p{
+        display: block;
+        margin-left: 15px;
+        width: 327px;
+        height: 72px;
+        color: black;
+        font-family: Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .form{
+        display: block;
+        margin-left: 181px;
+        margin-top: 12px;
+    }
+
+    .form-img{
+        margin-left: 20px;
+        height: 272px;
+    }
+
+    .image-div {
+        display: none;
+    }
+
+    .form-layout{
+        display: none;
+    }
+    .step-1-text-div{
+        width: 148px;
+        height: 21px;
+        display: flex;
+        align-items: center;
+    }
+
+    .step-1-p1{
+        font-size: 24px;
+        margin-left: -35px;
+        font-weight: 500;
+        margin-top: 60px;
+        color: #000000DE;
+        font-family: "Roboto";
+    }
+
+    .step-1-p2{
+        font-size: 24px;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        margin-left: -35px;
+    }
+    .step_1-footer {
+        display: block;
+        color: black;
+        margin-top: 140px;
+        margin-left: -92px;
+    }
+    
+    .step_1-button {
+        width: 107px;
+        color: black;
+        margin-top: 3px;
+        height: 30px;
+        text-decoration: underline;
+        cursor: pointer;
+        font-family: Helvetica, sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .step_1-angle {
+        color: black;
+        align-items: center;
+        display: block;
+        margin-left: 114px;
+        position: relative;
+        top: -19px;
+    }
+}

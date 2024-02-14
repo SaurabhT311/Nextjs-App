@@ -13,13 +13,14 @@
     width: 599px;
     height: 112px;
     display: flex;
+    flex-direction: column;
     margin-left: 100px;
-    // position: relative;
-    // top: 777px;
 }
-h1 {
+
+.heading-section {
     font-family: Helvetica, sans-serif;
     font-weight: 500;
+    justify-content: center;
     color: #FFFFFF;
     font-size: 40px;
     line-height: 56px;
@@ -37,6 +38,10 @@ h1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+}
+
+.p3-text{
+    display: none;
 }
 
 .p2-text{
@@ -65,26 +70,41 @@ h1 {
     color: #FFFFFF;
     align-items: center;
     display: flex;
+    position: relative;
+    top: 2px;
+    left: 3px;
 }
 
-@media screen and (max-width: 450px){ 
+
+@media screen and (max-width: 450px){
     .new-section{
         width: 375px;
-        height: 333px;
-        top: 684px;
-        display: block;
+        height: 486px;
         align-items: center;
-        padding: 0;
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        padding-bottom: 90px;
+    }
+    .left-div{
+        width: 375px;
+        height: 486px;
+        display: flex;
+        margin: 0;
+        position: relative;
+        text-align: left;
+        margin-top: -35px;
+        left: 25px;
+        color: white;
+        flex-direction: column;
+        padding-bottom: 90px;
     }
 
-    // .left-div {
-    //     // width: 327px;
-    //     // height: 72px;
-    //     // font-size: 24px;
-    //     // line-height: 36px;
-    //     // display: flex;
-    //     margin: 0;
-    // }
+    .heading-section{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
     h1{
         width: 327px;
         height: 72px;
@@ -93,12 +113,28 @@ h1 {
         display: flex;
         margin: 0;
     }
-    // .right-div {
-    //     width: 327px;
-    //     height: 72px;
-    // }
-    .p1-text {
+
+    .right-div {
         width: 327px;
         height: 72px;
+        margin-top: -355px;
     }
+
+    .p3-text {
+        width: 327px;
+        height: 72px;
+        font-size: 16px;
+        display: block;
+        line-height: 24px;
+        font-weight: 400;
+        color: white;
+        font-family: Helvetica, sans-serif;
+    }
+    .p1-text{
+        display: none;
+    }
+    
+    .section-footer{
+        margin-top: 75px;
+    } 
 }

@@ -19,7 +19,7 @@ const Step_3 = () => {
           </div>
         </div>
         {/* COntent for right side */}
-        <div className="step-2-right-div">
+        <div className="step-3-right-div">
             <div className='cable-logo'>
             <Image className="textlogo" src="textlogo.svg" width={30} height={30}/>
             </div>
@@ -34,4 +34,4 @@ const Step_3 = () => {
   )
 }
 
-export default Step_3
+export default Step_3;

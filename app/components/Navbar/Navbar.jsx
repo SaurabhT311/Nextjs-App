@@ -4,8 +4,6 @@ import { NAV_LINKS } from "@/constants/constant";
 import Image from "next/image";
 const Navbar = () => {
   return (
-    // Lets use semantic HTML5
-    // <div>Navbar</div>
     <nav className="nav-container">
       <div className="logo-container">  
             <span className="logo">AFC Inc.</span>

@@ -1,5 +1,4 @@
 import FAQ from "./components/FAQ/Faq";
-import Footer from "./components/Footer/Footer";
 import Hero from "./components/Hero/Hero";
 import Section from "./components/Section/Section";
 import Step_1 from "./components/Step_1/Step_1";
